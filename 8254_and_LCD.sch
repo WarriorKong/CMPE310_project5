@@ -385,8 +385,6 @@ Text GLabel 9300 2900 2    50   Input ~ 0
 D6
 Text GLabel 9300 3000 2    50   Input ~ 0
 D7
-Text GLabel 7850 3100 0    50   Input ~ 0
-RD
 $Comp
 L power:+5V #PWR?
 U 1 1 60A1CF5F
@@ -444,4 +442,8 @@ Text GLabel 7200 4100 2    50   Input ~ 0
 A18
 Text GLabel 7200 4000 2    50   Input ~ 0
 A19
+Text GLabel 7850 3000 0    50   Input ~ 0
+A1
+Text GLabel 7850 3100 0    50   Input ~ 0
+A2
 $EndSCHEMATC
