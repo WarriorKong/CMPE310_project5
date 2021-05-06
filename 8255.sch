@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -710,12 +710,17 @@ Wire Wire Line
 	3350 6200 3500 6200
 Wire Wire Line
 	4900 7500 4900 7600
-Wire Bus Line
-	2000 2250 2000 3150
-Wire Bus Line
-	3900 5700 3900 6600
-Wire Bus Line
-	7150 2200 7150 3100
+$Comp
+L Logic_Programmable:PAL16L8 U8
+U 1 1 608BEE4C
+P 2850 6100
+F 0 "U8" H 2850 6981 50  0000 C CNN
+F 1 "PAL16L8" H 2850 6890 50  0000 C CNN
+F 2 "" H 2850 6100 50  0001 C CNN
+F 3 "" H 2850 6100 50  0001 C CNN
+	1    2850 6100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2200 6400 2350 6400
 Wire Wire Line
@@ -732,19 +737,14 @@ Wire Wire Line
 	2200 5700 2350 5700
 Wire Wire Line
 	2200 5600 2350 5600
-Wire Bus Line
-	2250 5050 2250 6400
 Wire Wire Line
 	2200 6100 2350 6100
-$Comp
-L Logic_Programmable:PAL16L8 U8
-U 1 1 608BEE4C
-P 2850 6100
-F 0 "U8" H 2850 6981 50  0000 C CNN
-F 1 "PAL16L8" H 2850 6890 50  0000 C CNN
-F 2 "" H 2850 6100 50  0001 C CNN
-F 3 "" H 2850 6100 50  0001 C CNN
-	1    2850 6100
-	1    0    0    -1  
-$EndComp
+Wire Bus Line
+	2000 2250 2000 3150
+Wire Bus Line
+	3900 5700 3900 6600
+Wire Bus Line
+	7150 2200 7150 3100
+Wire Bus Line
+	2250 5050 2250 6400
 $EndSCHEMATC
