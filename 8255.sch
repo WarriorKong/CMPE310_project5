@@ -112,26 +112,15 @@ Text GLabel 3500 6000 2    50   Input ~ 0
 A13
 Text GLabel 3500 6100 2    50   Input ~ 0
 A12
-$Comp
-L 4xxx:4002 U9
-U 1 1 608BEE6D
-P 2600 7350
-F 0 "U9" H 2600 7725 50  0000 C CNN
-F 1 "4002" H 2600 7634 50  0000 C CNN
-F 2 "" H 2600 7350 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 2600 7350 50  0001 C CNN
-	1    2600 7350
-	1    0    0    -1  
-$EndComp
 Text GLabel 3500 5800 2    50   Input ~ 0
 A15
-Text GLabel 2300 7200 0    50   Input ~ 0
+Text GLabel 2250 7150 0    50   Input ~ 0
 A16
-Text GLabel 2300 7300 0    50   Input ~ 0
+Text GLabel 2250 7250 0    50   Input ~ 0
 A17
-Text GLabel 2300 7400 0    50   Input ~ 0
+Text GLabel 2250 7450 0    50   Input ~ 0
 A18
-Text GLabel 2300 7500 0    50   Input ~ 0
+Text GLabel 2250 7550 0    50   Input ~ 0
 A19
 Text Label 3350 6450 0    50   ~ 0
 CS2
@@ -169,8 +158,6 @@ Wire Wire Line
 	3350 6450 3450 6450
 Wire Wire Line
 	3500 7350 2900 7350
-Wire Bus Line
-	2300 6850 2300 7500
 Text Label 2250 5150 0    50   ~ 0
 A[0:19]
 Text Label 2300 6950 2    50   ~ 0
@@ -721,6 +708,37 @@ F 3 "" H 2850 6100 50  0001 C CNN
 	1    2850 6100
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 60B21797
+P 2550 7200
+F 0 "U?" H 2525 7467 50  0000 C CNN
+F 1 "74AHC1G08" H 2525 7376 50  0000 C CNN
+F 2 "" H 2550 7200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2550 7200 50  0001 C CNN
+	1    2550 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 60B2E03E
+P 2550 7500
+F 0 "U?" H 2525 7767 50  0000 C CNN
+F 1 "74AHC1G08" H 2525 7676 50  0000 C CNN
+F 2 "" H 2550 7500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2550 7500 50  0001 C CNN
+	1    2550 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 7200 2900 7200
+Wire Wire Line
+	2800 7500 2900 7500
+Wire Wire Line
+	2900 7200 2900 7350
+Connection ~ 2900 7350
+Wire Wire Line
+	2900 7350 2900 7500
 Wire Wire Line
 	2200 6400 2350 6400
 Wire Wire Line

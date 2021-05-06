@@ -1606,6 +1606,8 @@ U 60997B77
 F0 "CY7199_and_28F010" 50
 F1 "CY7199_and_28F010.sch" 50
 $EndSheet
+Wire Wire Line
+	700  1800 700  2000
 Wire Bus Line
 	10050 5350 10050 6250
 Wire Bus Line
@@ -1628,6 +1630,4 @@ Wire Bus Line
 	10050 3250 10050 4150
 Wire Bus Line
 	7450 2000 7450 4100
-Wire Wire Line
-	700  1800 700  2000
 $EndSCHEMATC

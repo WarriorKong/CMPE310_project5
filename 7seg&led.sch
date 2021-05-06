@@ -224,17 +224,6 @@ Wire Wire Line
 Wire Wire Line
 	9750 4200 9750 4100
 $Comp
-L Logic_Programmable:PAL16L8 U406
-U 1 1 609494BA
-P 6950 4800
-F 0 "U406" H 6950 5681 50  0000 C CNN
-F 1 "PAL16L8" H 6950 5590 50  0000 C CNN
-F 2 "" H 6950 4800 50  0001 C CNN
-F 3 "" H 6950 4800 50  0001 C CNN
-	1    6950 4800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0136
 U 1 1 60957184
 P 8500 3100
@@ -334,41 +323,6 @@ Wire Wire Line
 	8000 1550 7800 1550
 Wire Wire Line
 	8000 1450 7800 1450
-$Comp
-L power:GND #PWR0142
-U 1 1 609750D8
-P 6950 3450
-F 0 "#PWR0142" H 6950 3200 50  0001 C CNN
-F 1 "GND" H 6955 3277 50  0000 C CNN
-F 2 "" H 6950 3450 50  0001 C CNN
-F 3 "" H 6950 3450 50  0001 C CNN
-	1    6950 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR0143
-U 1 1 60959021
-P 6950 2150
-F 0 "#PWR0143" H 6950 2000 50  0001 C CNN
-F 1 "+5V" H 6965 2323 50  0000 C CNN
-F 2 "" H 6950 2150 50  0001 C CNN
-F 3 "" H 6950 2150 50  0001 C CNN
-	1    6950 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Logic_Programmable:PAL16L8 U405
-U 1 1 6094576B
-P 6950 2850
-F 0 "U405" H 6950 3731 50  0000 C CNN
-F 1 "PAL16L8" H 6950 3640 50  0000 C CNN
-F 2 "" H 6950 2850 50  0001 C CNN
-F 3 "" H 6950 2850 50  0001 C CNN
-	1    6950 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 2350 8000 2350
 Wire Wire Line
 	4700 1700 4300 1700
 Wire Wire Line
@@ -593,38 +547,6 @@ Wire Wire Line
 Wire Wire Line
 	5550 3850 5550 3500
 Connection ~ 5550 3500
-Text GLabel 6450 2350 0    50   Input ~ 0
-A1
-Text GLabel 6450 2450 0    50   Input ~ 0
-A2
-Text GLabel 6450 2550 0    50   Input ~ 0
-A3
-Text GLabel 6450 2650 0    50   Input ~ 0
-A4
-Text GLabel 6450 2750 0    50   Input ~ 0
-A5
-Text GLabel 6450 2850 0    50   Input ~ 0
-A6
-Text GLabel 6450 2950 0    50   Input ~ 0
-A7
-Text GLabel 6450 3050 0    50   Input ~ 0
-A8
-Text GLabel 6450 3150 0    50   Input ~ 0
-A9
-Text GLabel 6450 3250 0    50   Input ~ 0
-A10
-Text GLabel 7450 3050 2    50   Input ~ 0
-A11
-Text GLabel 7450 2950 2    50   Input ~ 0
-A12
-Text GLabel 7450 2850 2    50   Input ~ 0
-A13
-Text GLabel 7450 2750 2    50   Input ~ 0
-A14
-Text GLabel 7450 2650 2    50   Input ~ 0
-A15
-Text GLabel 7450 2550 2    50   Input ~ 0
-A16
 $Comp
 L 74xx:74AHC373 U408
 U 1 1 60A3D763
@@ -647,17 +569,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC373.pdf" H 8500 3900 
 	1    8500 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74AHC373 U403
-U 1 1 60A581CD
-P 3650 2850
-F 0 "U403" H 3650 3831 50  0000 C CNN
-F 1 "74AHC373" H 3650 3740 50  0000 C CNN
-F 2 "" H 3650 2850 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC373.pdf" H 3650 2850 50  0001 C CNN
-	1    3650 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 2450 8000 2750
 Wire Wire Line
@@ -668,82 +579,38 @@ Wire Wire Line
 Wire Wire Line
 	8000 4700 8500 4700
 Connection ~ 8500 4700
-Text GLabel 6450 4300 0    50   Input ~ 0
-A1
 Text GLabel 6450 4400 0    50   Input ~ 0
-A2
+A1
 Text GLabel 6450 4500 0    50   Input ~ 0
-A3
+A2
 Text GLabel 6450 4600 0    50   Input ~ 0
-A4
+A3
 Text GLabel 6450 4700 0    50   Input ~ 0
-A5
+A4
 Text GLabel 6450 4800 0    50   Input ~ 0
-A6
+A5
 Text GLabel 6450 4900 0    50   Input ~ 0
-A7
+A6
 Text GLabel 6450 5000 0    50   Input ~ 0
-A8
+A7
 Text GLabel 6450 5100 0    50   Input ~ 0
-A9
+A8
 Text GLabel 6450 5200 0    50   Input ~ 0
-A10
+A9
 Text GLabel 7450 5000 2    50   Input ~ 0
-A11
+A10
 Text GLabel 7450 4900 2    50   Input ~ 0
-A12
+A11
 Text GLabel 7450 4800 2    50   Input ~ 0
-A13
+A12
 Text GLabel 7450 4700 2    50   Input ~ 0
-A14
+A13
 Text GLabel 7450 4600 2    50   Input ~ 0
-A15
+A14
 Text GLabel 7450 4500 2    50   Input ~ 0
-A16
-$Comp
-L 74xx:74LS27 U404
-U 1 1 60A922A2
-P 6750 3700
-F 0 "U404" H 6750 4025 50  0000 C CNN
-F 1 "74LS27" H 6750 3934 50  0000 C CNN
-F 2 "" H 6750 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6750 3700 50  0001 C CNN
-	1    6750 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 2450 7700 2450
+A15
 Wire Wire Line
 	7700 2450 7700 3200
-Wire Wire Line
-	7700 3200 7350 3200
-Wire Wire Line
-	7350 3200 7350 3700
-Wire Wire Line
-	7350 3700 7050 3700
-Text GLabel 6450 3600 0    50   Input ~ 0
-A17
-Text GLabel 6450 3700 0    50   Input ~ 0
-A18
-Text GLabel 6450 3800 0    50   Input ~ 0
-A19
-$Comp
-L 74xx:74LS27 U407
-U 1 1 60ABE1FE
-P 7500 5750
-F 0 "U407" H 7500 6075 50  0000 C CNN
-F 1 "74LS27" H 7500 5984 50  0000 C CNN
-F 2 "" H 7500 5750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 7500 5750 50  0001 C CNN
-	1    7500 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 7200 5650 0    50   Input ~ 0
-A17
-Text GLabel 7200 5750 0    50   Input ~ 0
-A18
-Text GLabel 7200 5850 0    50   Input ~ 0
-A19
 Wire Wire Line
 	3150 3250 2600 3250
 $Comp
@@ -757,35 +624,16 @@ F 3 "" H 2100 3750 50  0001 C CNN
 	1    2100 3750
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS27 U402
-U 1 1 60AD7465
-P 2600 4700
-F 0 "U402" H 2600 5025 50  0000 C CNN
-F 1 "74LS27" H 2600 4934 50  0000 C CNN
-F 2 "" H 2600 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 2600 4700 50  0001 C CNN
-	1    2600 4700
-	1    0    0    -1  
-$EndComp
-Text GLabel 2300 4600 0    50   Input ~ 0
-A17
-Text GLabel 2300 4700 0    50   Input ~ 0
-A18
-Text GLabel 2300 4800 0    50   Input ~ 0
-A19
-Text GLabel 2600 3950 2    50   Input ~ 0
-A11
 Text GLabel 2600 3850 2    50   Input ~ 0
-A12
+A11
 Text GLabel 2600 3750 2    50   Input ~ 0
-A13
+A12
 Text GLabel 2600 3650 2    50   Input ~ 0
-A14
+A13
 Text GLabel 2600 3550 2    50   Input ~ 0
-A15
+A14
 Text GLabel 2600 3450 2    50   Input ~ 0
-A16
+A15
 Wire Wire Line
 	2600 3350 2900 3350
 Wire Wire Line
@@ -794,26 +642,8 @@ Wire Wire Line
 	7800 5750 7800 4400
 Wire Wire Line
 	7800 4400 7450 4400
-Text GLabel 1600 3250 0    50   Input ~ 0
-A1
 Text GLabel 1600 3350 0    50   Input ~ 0
-A2
-Text GLabel 1600 3450 0    50   Input ~ 0
-A3
-Text GLabel 1600 3550 0    50   Input ~ 0
-A4
-Text GLabel 1600 3650 0    50   Input ~ 0
-A5
-Text GLabel 1600 3750 0    50   Input ~ 0
-A6
-Text GLabel 1600 3850 0    50   Input ~ 0
-A7
-Text GLabel 1600 3950 0    50   Input ~ 0
-A8
-Text GLabel 1600 4050 0    50   Input ~ 0
-A9
-Text GLabel 1600 4150 0    50   Input ~ 0
-A10
+A1
 $Comp
 L power:GND #PWR0147
 U 1 1 60AF626D
@@ -834,6 +664,125 @@ Wire Wire Line
 Connection ~ 3650 3850
 Wire Wire Line
 	3650 3850 3650 3900
+Wire Wire Line
+	5300 3200 5550 3200
+$Comp
+L Logic_Programmable:PAL16L8 U406
+U 1 1 609494BA
+P 6950 4800
+F 0 "U406" H 6950 5681 50  0000 C CNN
+F 1 "PAL16L8" H 6950 5590 50  0000 C CNN
+F 2 "" H 6950 4800 50  0001 C CNN
+F 3 "" H 6950 4800 50  0001 C CNN
+	1    6950 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 4300 0    50   Input ~ 0
+A0
+Wire Wire Line
+	7350 3200 7350 3700
+Wire Wire Line
+	7700 3200 7350 3200
+Wire Wire Line
+	7450 2450 7700 2450
+Text GLabel 7450 2550 2    50   Input ~ 0
+A15
+Text GLabel 7450 2650 2    50   Input ~ 0
+A14
+Text GLabel 7450 2750 2    50   Input ~ 0
+A13
+Text GLabel 7450 2850 2    50   Input ~ 0
+A12
+Text GLabel 7450 2950 2    50   Input ~ 0
+A11
+Text GLabel 7450 3050 2    50   Input ~ 0
+A10
+Text GLabel 6450 3250 0    50   Input ~ 0
+A9
+Text GLabel 6450 3150 0    50   Input ~ 0
+A8
+Text GLabel 6450 3050 0    50   Input ~ 0
+A7
+Text GLabel 6450 2950 0    50   Input ~ 0
+A6
+Text GLabel 6450 2850 0    50   Input ~ 0
+A5
+Text GLabel 6450 2750 0    50   Input ~ 0
+A4
+Text GLabel 6450 2650 0    50   Input ~ 0
+A3
+Text GLabel 6450 2550 0    50   Input ~ 0
+A2
+Text GLabel 6450 2450 0    50   Input ~ 0
+A1
+Wire Wire Line
+	7450 2350 8000 2350
+$Comp
+L Logic_Programmable:PAL16L8 U405
+U 1 1 6094576B
+P 6950 2850
+F 0 "U405" H 6950 3731 50  0000 C CNN
+F 1 "PAL16L8" H 6950 3640 50  0000 C CNN
+F 2 "" H 6950 2850 50  0001 C CNN
+F 3 "" H 6950 2850 50  0001 C CNN
+	1    6950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0143
+U 1 1 60959021
+P 6950 2150
+F 0 "#PWR0143" H 6950 2000 50  0001 C CNN
+F 1 "+5V" H 6965 2323 50  0000 C CNN
+F 2 "" H 6950 2150 50  0001 C CNN
+F 3 "" H 6950 2150 50  0001 C CNN
+	1    6950 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 609750D8
+P 6950 3450
+F 0 "#PWR0142" H 6950 3200 50  0001 C CNN
+F 1 "GND" H 6955 3277 50  0000 C CNN
+F 2 "" H 6950 3450 50  0001 C CNN
+F 3 "" H 6950 3450 50  0001 C CNN
+	1    6950 3450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6450 2350 0    50   Input ~ 0
+A0
+Text GLabel 2600 3950 2    50   Input ~ 0
+A10
+Text GLabel 1600 4150 0    50   Input ~ 0
+A9
+Text GLabel 1600 4050 0    50   Input ~ 0
+A8
+Text GLabel 1600 3950 0    50   Input ~ 0
+A7
+Text GLabel 1600 3850 0    50   Input ~ 0
+A6
+Text GLabel 1600 3750 0    50   Input ~ 0
+A5
+Text GLabel 1600 3650 0    50   Input ~ 0
+A4
+Text GLabel 1600 3550 0    50   Input ~ 0
+A3
+Text GLabel 1600 3450 0    50   Input ~ 0
+A2
+Text GLabel 1600 3250 0    50   Input ~ 0
+A0
+$Comp
+L 74xx:74AHC373 U403
+U 1 1 60A581CD
+P 3650 2850
+F 0 "U403" H 3650 3831 50  0000 C CNN
+F 1 "74AHC373" H 3650 3740 50  0000 C CNN
+F 2 "" H 3650 2850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC373.pdf" H 3650 2850 50  0001 C CNN
+	1    3650 2850
+	1    0    0    -1  
+$EndComp
 $Comp
 L power:+5V #PWR0148
 U 1 1 60954095
@@ -845,6 +794,139 @@ F 3 "" H 3650 2050 50  0001 C CNN
 	1    3650 2050
 	0    1    1    0   
 $EndComp
+Text GLabel 6550 5550 0    50   Input ~ 0
+A16
+Text GLabel 6550 5650 0    50   Input ~ 0
+A17
+Text GLabel 6550 5850 0    50   Input ~ 0
+A18
+Text GLabel 6550 5950 0    50   Input ~ 0
+A19
 Wire Wire Line
-	5300 3200 5550 3200
+	7800 5750 7200 5750
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 60BC44D5
+P 6850 5600
+AR Path="/607EFB7A/60BC44D5" Ref="U?"  Part="1" 
+AR Path="/6095468F/60BC44D5" Ref="U?"  Part="1" 
+F 0 "U?" H 6825 5867 50  0000 C CNN
+F 1 "74AHC1G08" H 6825 5776 50  0000 C CNN
+F 2 "" H 6850 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6850 5600 50  0001 C CNN
+	1    6850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 60BC44DB
+P 6850 5900
+AR Path="/607EFB7A/60BC44DB" Ref="U?"  Part="1" 
+AR Path="/6095468F/60BC44DB" Ref="U?"  Part="1" 
+F 0 "U?" H 6825 6167 50  0000 C CNN
+F 1 "74AHC1G08" H 6825 6076 50  0000 C CNN
+F 2 "" H 6850 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6850 5900 50  0001 C CNN
+	1    6850 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5600 7200 5600
+Wire Wire Line
+	7100 5900 7200 5900
+Wire Wire Line
+	7200 5600 7200 5750
+Connection ~ 7200 5750
+Wire Wire Line
+	7200 5750 7200 5900
+Text GLabel 1650 4500 0    50   Input ~ 0
+A16
+Text GLabel 1650 4600 0    50   Input ~ 0
+A17
+Text GLabel 1650 4800 0    50   Input ~ 0
+A18
+Text GLabel 1650 4900 0    50   Input ~ 0
+A19
+Wire Wire Line
+	2900 4700 2300 4700
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 60BD96A5
+P 1950 4550
+AR Path="/607EFB7A/60BD96A5" Ref="U?"  Part="1" 
+AR Path="/6095468F/60BD96A5" Ref="U?"  Part="1" 
+F 0 "U?" H 1925 4817 50  0000 C CNN
+F 1 "74AHC1G08" H 1925 4726 50  0000 C CNN
+F 2 "" H 1950 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1950 4550 50  0001 C CNN
+	1    1950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 60BD96AB
+P 1950 4850
+AR Path="/607EFB7A/60BD96AB" Ref="U?"  Part="1" 
+AR Path="/6095468F/60BD96AB" Ref="U?"  Part="1" 
+F 0 "U?" H 1925 5117 50  0000 C CNN
+F 1 "74AHC1G08" H 1925 5026 50  0000 C CNN
+F 2 "" H 1950 4850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1950 4850 50  0001 C CNN
+	1    1950 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4550 2300 4550
+Wire Wire Line
+	2200 4850 2300 4850
+Wire Wire Line
+	2300 4550 2300 4700
+Connection ~ 2300 4700
+Wire Wire Line
+	2300 4700 2300 4850
+Text GLabel 6100 3500 0    50   Input ~ 0
+A16
+Text GLabel 6100 3600 0    50   Input ~ 0
+A17
+Text GLabel 6100 3800 0    50   Input ~ 0
+A18
+Text GLabel 6100 3900 0    50   Input ~ 0
+A19
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 60BF388B
+P 6400 3550
+AR Path="/607EFB7A/60BF388B" Ref="U?"  Part="1" 
+AR Path="/6095468F/60BF388B" Ref="U?"  Part="1" 
+F 0 "U?" H 6375 3817 50  0000 C CNN
+F 1 "74AHC1G08" H 6375 3726 50  0000 C CNN
+F 2 "" H 6400 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6400 3550 50  0001 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U?
+U 1 1 60BF3891
+P 6400 3850
+AR Path="/607EFB7A/60BF3891" Ref="U?"  Part="1" 
+AR Path="/6095468F/60BF3891" Ref="U?"  Part="1" 
+F 0 "U?" H 6375 4117 50  0000 C CNN
+F 1 "74AHC1G08" H 6375 4026 50  0000 C CNN
+F 2 "" H 6400 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6400 3850 50  0001 C CNN
+	1    6400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3550 6750 3550
+Wire Wire Line
+	6650 3850 6750 3850
+Wire Wire Line
+	6750 3550 6750 3700
+Connection ~ 6750 3700
+Wire Wire Line
+	6750 3700 6750 3850
+Wire Wire Line
+	6750 3700 7350 3700
 $EndSCHEMATC
