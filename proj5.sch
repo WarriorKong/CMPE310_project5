@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -1588,6 +1588,12 @@ F 3 "" H 700 1800 50  0001 C CNN
 	1    700  1800
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 9100 7550 1500 1300
+U 6095468F
+F0 "7seg&led" 50
+F1 "7seg&led.sch" 50
+$EndSheet
 Wire Bus Line
 	10050 5350 10050 6250
 Wire Bus Line
@@ -1611,9 +1617,9 @@ Wire Bus Line
 Wire Bus Line
 	7450 2000 7450 4100
 $Sheet
-S 9100 7550 1500 1300
-U 6095468F
-F0 "7seg&led" 50
-F1 "7seg&led.sch" 50
+S 6650 7850 1300 1200
+U 6095B35F
+F0 "8254_and_LCD" 50
+F1 "8254_and_LCD.sch" 50
 $EndSheet
 $EndSCHEMATC
