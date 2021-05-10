@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -860,4 +860,6 @@ Wire Bus Line
 	7150 2200 7150 3100
 Wire Bus Line
 	2250 5050 2250 6400
+Text Label 3000 7350 0    50   ~ 0
+4dec
 $EndSCHEMATC

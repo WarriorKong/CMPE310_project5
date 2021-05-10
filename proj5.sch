@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -1665,4 +1665,10 @@ Wire Bus Line
 	10050 3250 10050 4150
 Wire Bus Line
 	7450 2000 7450 4100
+$Sheet
+S 6150 8450 1850 1400
+U 60AD5691
+F0 "8dipswitch" 50
+F1 "8dipswitch.sch" 50
+$EndSheet
 $EndSCHEMATC
