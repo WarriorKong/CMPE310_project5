@@ -1593,7 +1593,7 @@ U 1 1 610CC18C
 P 1300 9050
 F 0 "J101" V 1264 8862 50  0000 R CNN
 F 1 "Screw_Terminal_01x02" V 1173 8862 50  0000 R CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 1300 9050 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1300 9050 50  0001 C CNN
 F 3 "~" H 1300 9050 50  0001 C CNN
 	1    1300 9050
 	-1   0    0    1   
